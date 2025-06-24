@@ -16,16 +16,13 @@ DESCRIPTION
 
 L10N::CY contains the logic to provide a Welsh localization of the Raku Programming Language.
 
-It's based on the Klingon localization by Elizabeth Mattisjen.
-
 AUTHOR
 ======
 
 Richard Hainsworth <rnhainsworth@gmail.com>
 Elizabeth Mattijsen <liz@raku.rocks>
 
-Source can be located at: https://github.com/finanalyst/rakuast-L10N-CY. Comments and Pull Requests are welcome.  
-Klingon source can be located at: https://github.com/lizmat/L10N-TLH . 
+Source can be located at: https://github.com/Raku-L10N/CY. Comments and Pull Requests are welcome.  
 
 COPYRIGHT AND LICENSE
 =====================

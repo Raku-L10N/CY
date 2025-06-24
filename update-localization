@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-use RakuAST::L10N;
-my $l10n = ~dir.first({.chars == 2|3 && .uc eq $_});
-update-module($l10n);
-"use lib '.'; use L10N::$l10n".EVAL;
+use RakuAST::L10N;                # provided by core
+update-module("CY");              # update the source
+"use lib '.'; use L10N::CY".EVAL; # precomp the module
+
+# vim: expandtab shiftwidth=4

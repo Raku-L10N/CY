@@ -1,0 +1,45 @@
+=begin pod
+
+=head1 NAME
+
+L10N::CY - Welsh localization of Raku
+
+=head1 SYNOPSIS
+
+=begin output
+$ ryuuu -e 'dywedyd "Helo Byd"'
+Helo Byd
+=end output
+
+=begin code :lang<raku>
+
+use L10N::NL;
+dywedyd "Helo Byd"
+
+=end code
+
+=head1 DESCRIPTION
+
+The C<L10N::JA> distribution contains the logic to provide a Japanese
+localization of the Raku Programming Language.  It installs a
+C<ryuuu> executable that will automatically activate the Japanese
+localization.  And it allows one to use the Japanese localization
+in selected programs with a C<use L10N::JA> statement.
+
+=head1 REFERENCES
+
+L<Ryuuu - a Japanese dragon|https://dev.to/finanalyst/ryuu-a-japanese-dragon-2e7m>
+
+=head1 AUTHORS
+
+Richard Hainsworth <rnhainsworth@gmail.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2024, 2025 Raku Localization Team
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
+=end pod
+
+# vim: expandtab shiftwidth=4

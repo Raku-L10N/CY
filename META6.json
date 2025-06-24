@@ -1,7 +1,6 @@
 {
-  "auth": "zef:finanalyst",
+  "auth": "zef:l10n",
   "authors": [
-    "Elizabeth Mattijsen",
     "Richard Hainsworth"
   ],
   "build-depends": [
@@ -16,12 +15,8 @@
     "L10N::CY": "lib/L10N/CY.rakumod",
     "RakuAST::Deparse::L10N::CY": "lib/RakuAST/Deparse/L10N/CY.rakumod"
   },
-  "bin": [
-    "bin/draig",
-    "bin/tr2draig"
-  ],
   "resources": [],
-  "source-url": "https://github.com/finanalyst/rakuast-L10N-CY.git",
+  "source-url": "https://github.com/raku-L10N/CY.git",
   "tags": [
     "LOCALIZATION",
     "WELSH",

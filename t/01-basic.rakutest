@@ -1,0 +1,14 @@
+use Test;
+plan 1;
+
+my $ast := Q:to/CODE/.AST("CY");
+fy $a = 42;
+os $a == 42 {
+    dywedyd "Helo Byd"
+}
+CODE
+$ast.EVAL;
+
+pass "Compiled and ran";
+
+# vim: expandtab shiftwidth=4
