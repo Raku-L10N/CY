@@ -24,7 +24,7 @@ The `L10N::JA` distribution contains the logic to provide a Japanese localizatio
 REFERENCES
 ==========
 
-[Ryuuu - a Japanese dragon](https://dev.to/finanalyst/ryuu-a-japanese-dragon-2e7m)
+[Creating a new programming language - Draig](https://dev.to/finanalyst/creating-a-new-programming-language-draig-503p)
 
 AUTHORS
 =======

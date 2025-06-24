@@ -1,6 +1,7 @@
 Revision history for L10N::CY
 
 {{$NEXT}}
+    - Fix reference to blog post
 
 0.0.5  2025-06-24T13:50:08+02:00
     - Update localizations to current list, and some corrections
