@@ -1,700 +1,792 @@
 # This file contains that Welsh "translation" of features of the
-# Raku Programming Language.     
-                                 
-adverb-pc-delete                 dileu
-adverb-pc-exists                 yn-bodoli
-adverb-pc-k                      k
-adverb-pc-kv                     kv
-adverb-pc-p                      p
-adverb-pc-v                      v
-                                 
-adverb-q-a                       a
-adverb-q-array                   arae
-adverb-q-b                       b
-adverb-q-backslash               slaes
-adverb-q-c                       c
-adverb-q-closure                 cau
-adverb-q-double                  dwbl
-adverb-q-exec                    gweithred
-adverb-q-f                       f
-adverb-q-function                swyddogaeth
-adverb-q-format                  fformat
-adverb-q-h                       awr
-adverb-q-hash                    stwnsh
-adverb-q-heredoc                 heredoc
-adverb-q-o                       o
-adverb-q-q                       q
-adverb-q-qq                      qq
-adverb-q-quotewords              o-ddyfyniadau
-adverb-q-s                       s
-adverb-q-scalar                  sgalar
-adverb-q-single                  sengl
-adverb-q-to                      i
-adverb-q-v                       v
-adverb-q-val                     val
-adverb-q-w                       gw
-adverb-q-words                   o-eiriau
-adverb-q-ww                      gw
-adverb-q-x                       x
-                                 
-adverb-rx-c                      c
-adverb-rx-continue               parhau
-adverb-rx-ex                     cyn
-adverb-rx-exhaustive             hollgynhwysfawr
-adverb-rx-g                      g
-adverb-rx-global                 byd-eang
-adverb-rx-i                      ff
-adverb-rx-ignorecase             cas-anwybyddu
-adverb-rx-ignoremark             marc-anwybyddu
-adverb-rx-ii                     ii
-adverb-rx-m                      m
-adverb-rx-mm                     mm
-adverb-rx-nd                     eg
-adverb-rx-nth                    fed
-adverb-rx-ov                     trof
-adverb-rx-overlap                gorgyffwrdd
-adverb-rx-p                      t
-adverb-rx-pos                    post
-adverb-rx-r                      r
-adverb-rx-ratchet                clicied
-adverb-rx-rd                     ydd
-adverb-rx-s                      s
-adverb-rx-samecase               o-r-un-achos
-adverb-rx-samemark               o-r-un-marc
-adverb-rx-samespace              un-gofod
-adverb-rx-sigspace               sigspace
-adverb-rx-ss                     ss
-adverb-rx-st                     st
-adverb-rx-to                     i
-adverb-rx-x                      x
-                                 
-block-default                    rhagosodedig
-block-else                       arall
-block-elsif                      elsif
-block-for                        ar-gyfer
-block-given                      a-roddwyd
-block-if                         os
-block-loop                       dolen
-block-orwith                     orwith
-block-repeat                     ailadrodd
-block-unless                     oni-bai
-block-until                      hyd
-block-when                       pryd
-block-whenever                   pryd-bynnag
-block-while                      tra
-block-with                       gyda
-block-without                    heb
-                                 
-constraint-where                 ble
-                                 
-core-abs                         abs
-core-all                         i-gyd
-core-antipairs                   gwrthbarau
-core-any                         unrhyw
-core-append                      atodiad
-core-ast                         as
-core-atomic-add-fetch            atomig-ychwanegu-nol
-core-atomic-assign               atomig-aseinio
-core-atomic-dec-fetch            atomig-dec-nol
-core-atomic-fetch                atomig-nol
-core-atomic-fetch-add            atomig-nol-ychwanegu
-core-atomic-fetch-dec            atomig-nol-rhag
-core-atomic-fetch-inc            atomig-nol-gan-gynnwys
-core-atomic-fetch-sub            atomig-nol-is
-core-atomic-inc-fetch            atomig-inc-nol
-core-atomic-sub-fetch            atomig-is-nol
-core-await                       aros
-                                 
-core-bag                         bag
-core-bail-out                    mechniaeth-allan
-core-bless                       bendithio
-                                 
-core-callframe                   ffrâm-alwad
-core-callsame                    o-alwadau
-core-callwith                    galwad-gyda
-core-can-ok                      can--iawn
-core-cas                         cas
-core-categorize                  categoreiddio
-core-ceiling                     nenfwd
-core-chars                       golosg
-core-chdir                       chdir
-core-chmod                       chmod
-core-chomp                       chomp
-core-chop                        golwyth
-core-chown                       chown
-core-chr                         cr
-core-chrs                        cr
-core-classify                    dosbarthu
-core-close                       agos
-core-cmp-ok                      cmp-iawn
-core-codes                       o-godau
-core-comb                        crib
-core-combinations                o-gyfuniadau
-core-conj                        conj
-core-contains                    yn-cynnwys
-core-cross                       croes
-                                 
-core-decode                      dadgodio
-core-deepmap                     dwfnfap
-core-defined                     diffiniedig
-core-diag                        diag
-core-die                         marw
-core-dies-ok                     yn-marw-iawn
-core-dir                         dir
-core-does-ok                     yn-iawn
-core-done                        wneud
-core-duckmap                     map-hwyad
-                                 
-core-elems                       elem
-core-emit                        alltud
-core-encode                      amgodio
-core-end                         diwedd
-core-ends-with                   diwedd-gyda
-core-eval-dies-ok                eval-yn-marw-iawn
-core-eval-lives-ok               eval-bywydau-iawn
-core-exit                        allanfa
-core-exp                         exp
-core-expmod                      expmod
-                                 
-core-fail                        methu
-core-fails-like                  yn-methu-fel
-core-fc                          fc
-core-first                       gyntaf
-core-flat                        fflat
-core-flip                        fflip
-core-floor                       llawr
-core-flunk                       fflangell
-core-fmt                         fmt
-core-full-barrier                llawn-rwystr
-                                 
-core-get                         cael
-core-getc                        getc
-core-gist                        gist
-core-grep                        grep
-                                 
-core-hash                        hash
-core-head                        pen
-                                 
-core-indent                      mewnoliad
-core-index                       mynegai
-core-indices                     o-fynegeion
-core-indir                       indir
-core-is                          yn
-core-is-approx                   yn-tua
-core-is-deeply                   yn-dwfn
-core-is-prime                    yn-presennol
-core-isa-ok                      isa-iawn
-core-isnt                        ddim
-core-item                        eitem
-                                 
-core-join                        ymuno
-                                 
-core-key                         cywair
-core-keys                        allweddau
-core-kv                          kv
-                                 
-core-last                        diweddaf
-core-lastcall                    alwad-olaf
-core-lc                          lc
-core-like                        fel
-core-lines                       llinell
-core-link                        cyswllt
-core-list                        rhestr
-core-lives-ok                    o-fywydau-yn-iawn
-core-lsb                         lsb
-                                 
-core-make                        gwneuthur
-core-map                         map
-core-match                       cyfatebol
-core-max                         uchafswm
-core-min                         mun
-core-minmax                      minmax
-core-mix                         cymysgedd
-core-mkdir                       mkdir
-core-move                        symud
-core-msb                         msb
-                                 
-core-new                         newydd
-core-next                        nesaf
-core-nextcallee                  nesaf-galwad
-core-nextsame                    yr-un-nesaf
-core-nextwith                    nesaf
-core-nok                         nok
-core-none                        dim
-core-not                         ddim
-core-note                        nodyn
-                                 
-core-ok                          iawn
-core-one                         un
-core-open                        agored
-core-ord                         ord
-core-ords                        ordeiniad
-                                 
-core-pair                        pâr
-core-pairs                       o-barau
-core-parse-base                  dosran-sylfaen
-core-pass                        pasio
-core-permutations                trynewidiad
-core-pick                        pigo
-core-plan                        cynllun
-core-pop                         pop
-core-prepend                     rhagymadrodd
-core-print                       print
-core-printf                      printf
-core-proceed                     symud-ymlaen
-core-prompt                      prydlon
-core-push                        gwthio
-core-put                         dodi
-                                 
-core-rand                        rand
-core-redo                        ail-wneud
-core-reduce                      lleihau
-core-repeated                    ailadrodd
-core-repl                        atteb
-core-return                      dychwelyd
-core-return-rw                   dychwelyd-rw
-core-reverse                     gwrthwyneb
-core-rindex                      rindex
-core-rmdir                       rmdir
-core-roll                        rhôl
-core-roots                       o-wreiddiau
-core-rotate                      cylchdroi
-core-round                       rownd
-core-roundrobin                  rowndrobin
-core-run                         rhediad
-                                 
-core-samecase                    o-r-un-achos
-core-samemark                    o-r-un-marc
-core-samewith                    yr-un-fath
-core-say                         dywedyd
-core-set                         set
-core-shell                       plisgyn
-core-shift                       sifft
-core-sign                        arwydd
-core-signal                      arwydd
-core-skip                        sgip
-core-skip-rest                   sgip-gorffwys
-core-sleep                       gwsg
-core-sleep-timer                 cwsg-amserydd
-core-sleep-until                 cwsg-hyd
-core-slip                        slip
-core-slurp                       slurp
-core-snip                        snip
-core-snitch                      snitch
-core-so                          felly
-core-sort                        didoli
-core-splice                      sbeis
-core-split                       hollt
-core-sprintf                     sbrintf
-core-spurt                       yspryd
-core-sqrt                        sqrt
-core-squish                      sgwish
-core-srand                       traen
-core-starts-with                 yn-dechreu-gyda
-core-subbuf                      subbuf
-core-subbuf-rw                   subbuf-rw
-core-subst                       subst
-core-substr                      substr
-core-substr-eq                   substr-eq
-core-substr-rw                   substr-rw
-core-subtest                     is-brawf
-core-succeed                     llwyddo
-core-sum                         swm
-core-symlink                     symlink
-                                 
-core-tail                        cynffon
-core-take                        cymryd
-core-take-rw                     cymryd-rw
-core-tc                          tc
-core-tclc                        tclc
-core-throws-like                 taflu-fel
-core-todo                        todo
-core-trans                       traws
-core-trim                        trim
-core-trim-leading                trim-arweiniol
-core-trim-trailing               trim-trael
-core-truncate                    blaenor
-                                 
-core-uc                          uc
-core-unimatch                    anghymhariaeth
-core-uniname                     uniname
-core-uninames                    unenw
-core-uniparse                    uniparse
-core-uniprop                     uniprop
-core-uniprops                    unplyg
-core-unique                      unigryw
-core-unival                      cyffredinol
-core-univals                     o-gyfiredinau
-core-unlike                      annhebyg
-core-unlink                      ddatgysylltu
-core-unpolar                     unpolar
-core-unshift                     unshift
-core-use-ok                      defnydd-iawn
-                                 
-core-val                         val
-core-value                       gwerth
-core-values                      o-werthoedd
-                                 
-core-warn                        rhybuddio
-core-wordcase                    gair
-core-words                       o-eiriau
-                                 
-core-zip                         zip
-                                 
-infix-(cont)                     (parhad)
-infix-(elem)                     (elem)
-infix-^ff                        ^ff
-infix-^ff^                       ^ff^
-infix-^fff                       ^ffff
-infix-^fff^                      ^ffff^
-infix-after                      ar-ôl
-infix-and                        a
-infix-andthen                    ac-yna
-infix-before                     o-r-blaen
-infix-but                        ond
-infix-cmp                        cmp
-infix-coll                       coll
-infix-div                        div
-infix-does                       yn-gwneud
-infix-eq                         eq
-infix-ff                         ff
-infix-ff^                        ff^
-infix-fff                        ff
-infix-fff^                       ff^
-infix-gcd                        gcd
-infix-ge                         ge
-infix-gt                         gt
-infix-lcm                        lcm
-infix-le                         le
-infix-leg                        goes
-infix-lt                         lt
-infix-max                        uchafswm
-infix-min                        mun
-infix-minmax                     minmax
-infix-mod                        mod
-infix-ne                         ne
-infix-notandthen                 ac-yna
-infix-o                          o
-infix-or                         neu
-infix-orelse                     arall
-infix-unicmp                     unicmp
-infix-x                          x
-infix-X                          X
-infix-xx                         xx
-infix-Z                          Z
-                                 
-meta-R                           R
-meta-X                           X
-meta-Z                           Z
-                                 
-modifier-for                     am
-modifier-given                   a-roddwyd
-modifier-if                      os
-modifier-unless                  oni-bai
-modifier-until                   hyd
-modifier-when                    pryd
-modifier-while                   tra
-modifier-with                    gyda
-modifier-without                 heb
-                                 
-multi-multi                      aml
-multi-only                       yn-unig
-multi-proto                      proto
-                                 
-named-absolute                   absoliwt
-named-actions                    o-weithredoedd
-named-api                        ap
-named-append                     atodiad
-named-arg0                       arg0
-named-args                       arg
-named-as                         fel
-named-at                         yn
-named-auth                       awd
-                                 
-named-basename                   enw-sylfaen
-named-batch                      swp
-named-bin                        bin
-named-bleed                      gwaedu
-named-broadcast                  darlledu
-                                 
-named-catch                      dal
-named-check                      siec
-named-chomp                      chomp
-named-close                      agos
-named-command                    gorchymyn
-named-complement                 ategu
-named-completely                 yn-hollol
-named-continue                   parhau
-named-control                    rheolaeth
-named-count                      cyfrif
-named-create                     creu
-named-createonly                 creu-yn-unig
-named-cwd                        cwd
-named-CWD                        CWD
-                                 
-named-date                       dyddiad
-named-day                        dydd
-named-degree                     gradd
-named-delete                     dileu
-named-dirname                    cyfenw
-                                 
-named-elems                      elem
-named-emit-timed                 wedi-u-hallyrru
-named-enc                        amg
-named-encoding                   amgodio
-named-end                        diwedd
-named-err                        cyfeiliorni
-named-every                      bob
-named-ex                         cyn
-named-exclusive                  unigryw
-named-exhaustive                 hollgynhwysfawr
-named-expires                    yn-dod-i-ben
-                                 
-named-family                     teulu
-named-filename                   enw-ffeil
-named-filter                     hidlydd
-named-formatter                  fformatiwr
-                                 
-named-g                          g
-named-gid                        gid
-named-global                     byd-eang
-                                 
-named-host                       gwesteiwr
-named-hour                       awr
-                                 
-named-i                          ff
-named-ignorecase                 cas-anwybyddu
-named-ignoremark                 marc-anwybyddu
-named-ii                         ii
-named-in                         i-mewn
-named-into                       i-mewn
-                                 
-named-joiner                     saer
-                                 
-named-k                          k
-named-key                        cywair
-named-kv                         kv
-                                 
-named-listen                     gwrando
-named-localhost                  gwesteiwr-lleol
-named-localport                  porthladd-lleol
-                                 
-named-match                      cyfateb
-named-merge                      uno
-named-minute                     munud
-named-mm                         mm
-named-mode                       modd
-named-month                      mis
-                                 
-named-name                       enw
-named-nd                         eg
-named-nl                         nl
-named-nl-in                      nl-yn
-named-nl-out                     nl-allan
-named-non-blocking               di-rwystro
-named-nth                        nfed
-                                 
-named-off                        i-ffwrdd
-named-out                        allan
-named-out-buffer                 allan-byffer
-named-ov                         oh
-named-overlap                    gorgyffwrdd
-                                 
-named-p                          t
-named-partial                    rhan
-named-parts                      rhan
-named-port                       porthladd
-named-pos                        post
-named-primary                    cynradd
-                                 
-named-quaternary                 cwarterol
-                                 
-named-r                          rh
-named-rd                         ydd
-named-real                       go-iawn
-named-replacement                amnewid
-named-rule                       rheol
-named-rw                         rh
-named-rx                         rx
-                                 
-named-samecase                   o-r-un-achos
-named-samespace                  un-gofod
-named-scheduler                  trefnydd
-named-second                     eiliad
-named-secondary                  eilradd
-named-seconds                    eiliad
-named-shared                     wedi-eu-rhannu
-named-size                       maint
-named-slip                       slip
-named-SPEC                       MANYLION
-named-squash                     sboncen
-named-ss                         eg
-named-st                         st
-named-status                     statws
-named-strict                     llym
-named-subscript                  tanysgrifiad
-named-superscript                uwchysgrif
-                                 
-named-tertiary                   trydyddol
-named-test                       prawf
-named-th                         eg
-named-times                      o-weithiau
-named-timezone                   cylchfa-amser
-named-translate-nl               cyfieith-nl
-named-truncate                   blaenor
-                                 
-named-uid                        uid
-named-update                     diweddariad
-                                 
-named-v                          v
-named-value                      gwerth
-named-vent-at                    vent-yn
-named-ver                        ver
-named-volume                     gyfrol
-                                 
-named-w                          gw
-named-where                      lle
-named-win-verbatim-args          ennill-verbatim-args
-                                 
-named-x                          x
-                                 
-named-year                       flwyddyn
-                                 
-package-class                    dosbarth
-package-grammar                  gramadeg
-package-module                   modiwl
-package-package                  pecyn
-package-role                     rôl
-                                 
-phaser-BEGIN                     DECHRAU
-phaser-CATCH                     DAL
-phaser-CHECK                     GWIRODYDD
-phaser-CLOSE                     GAU
-phaser-CONTROL                   RHEOLAETH
-phaser-DOC                       DOC
-phaser-END                       DIWEDD
-phaser-ENTER                     ENAID
-phaser-FIRST                     CYNTAF
-phaser-INIT                      INIT
-phaser-KEEP                      CADW
-phaser-LAST                      OLAF
-phaser-LEAVE                     GADAEL
-phaser-NEXT                      NESAF
-phaser-POST                      SWYDD
-phaser-PRE                       PRE
-phaser-QUIT                      GADAEL
-phaser-UNDO                      UNDOD
-                                 
-pragma-dynamic-scope             deinamig-gwmpas
-pragma-fatal                     angheuol
-pragma-internals                 mewnol
-pragma-invocant                  ddirym
-pragma-isms                      isms
-pragma-lib                       lib
-pragma-MONKEY                    MYNEGAI
-pragma-MONKEY-GUTS               MONKEY-GUTS
-pragma-MONKEY-SEE-NO-EVAL        MONKEY-GWELER-NO-EVAL
-pragma-MONKEY-TYPING             MYNEG-DDYN
-pragma-nqp                       nqp
-pragma-precompilation            rhagluniaeth
-pragma-soft                      meddal
-pragma-strict                    llym
-pragma-trace                     olrhain
-pragma-variables                 o-newidynnau
-pragma-worries                   o-ofidiau
-                                 
-prefix-not                       ddim
-prefix-so                        felly
-                                 
-quote-lang-m                     m
-quote-lang-ms                    ms
-quote-lang-q                     q
-quote-lang-Q                     Cw
-quote-lang-qq                    qq
-quote-lang-rx                    rx
-quote-lang-s                     s
-quote-lang-S                     S
-quote-lang-ss                    ss
-quote-lang-Ss                    Ss
-                                 
-routine-method                   dull
-routine-regex                    regex
-routine-rule                     rheol
-routine-sub                      is
-routine-submethod                is-ddull
-routine-token                    tocyn
-                                 
-scope-anon                       anun
-scope-augment                    cynydd
-scope-constant                   cyson
-scope-has                        wedi
-scope-HAS                        HAS
-scope-my                         fy
-scope-our                        ein
-scope-state                      wladwriaeth
-scope-unit                       uned
-                                 
-stmt-prefix-also                 hefyd
-stmt-prefix-do                   wneud
-stmt-prefix-eager                awyddus
-stmt-prefix-gather               casglu
-stmt-prefix-hyper                hybarch
-stmt-prefix-lazy                 diog
-stmt-prefix-quietly              yn-dawel
-stmt-prefix-race                 hil
-stmt-prefix-react                ymateb
-stmt-prefix-sink                 suddo
-stmt-prefix-start                dechreu
-stmt-prefix-supply               cyflenwad
-stmt-prefix-try                  ceisio
-                                 
-system-ACCEPTS                   DERBYNIADAU
-system-BUILD                     ADEILADU
-system-CALL-ME                   GALWAD-ME
-system-COERCE                    COFIANT
-system-FALLBACK                  AWDL
-system-MAIN                      PRIF
-system-TWEAK                     TWEAK
-system-UPGRADE-RAT               UWCHRADD-RAT
-                                 
-term-nano                        nano
-term-now                         yn-awr
-term-pi                          pi
-term-rand                        rand
-term-self                        hunan
-term-tau                         tau
-term-time                        amser
-                                 
-trait-is-built                   wedi-eu-hadeiladu
-trait-is-copy                    copi
-trait-is-default                 rhagosodedig
-trait-is-DEPRECATED              ANGHOFIEDIG
-trait-is-equiv                   cyfystyr
-trait-is-export                  allforio
-trait-is-hidden-from-backtrace   cudd-o-gefn
-trait-is-hidden-from-USAGE       cudd-o-DDEFNYDD
-trait-is-implementation-detail   gweithredu-manylion
-trait-is-looser                  rhyddach
-trait-is-nodal                   nodol
-trait-is-pure                    pur
-trait-is-raw                     amrwd
-trait-is-rw                      rh
-trait-is-test-assertion          prawf-haeriad
-trait-is-tighter                 llymach
-                                 
-traitmod-does                    yn-gwneud
-traitmod-handles                 llaw
-traitmod-hides                   o-guddfan
-traitmod-is                      yn
-traitmod-of                      o
-traitmod-returns                 yn-dychwelyd
-traitmod-trusts                  ymddiriedolaethau
-                                 
-typer-enum                       enum
-typer-subset                     is-set
-                                 
-use-import                       mewnforio
-use-need                         angen
-use-no                           na
-use-require                      angen
-use-use                          defnydd
+# Raku Programming Language.
+
+# KEY             TRANSLATION
+adverb-pc-delete  dileu
+adverb-pc-exists  yn-bodoli
+#adverb-pc-k       k
+#adverb-pc-kv      kv
+#adverb-pc-p       p
+#adverb-pc-v       v
+
+# KEY                TRANSLATION
+#adverb-q-a           a
+adverb-q-array       arae
+#adverb-q-b           b
+adverb-q-backslash   slaes
+#adverb-q-c           c
+adverb-q-closure     cau
+adverb-q-double      dwbl
+adverb-q-exec        gweithred
+#adverb-q-f           f
+adverb-q-function    swyddogaeth
+adverb-q-format      fformat
+adverb-q-h           awr
+adverb-q-hash        stwnsh
+adverb-q-heredoc     heredoc
+#adverb-q-o           o
+#adverb-q-q           q
+#adverb-q-qq          qq
+adverb-q-quotewords  o-ddyfyniadau
+#adverb-q-s           s
+adverb-q-scalar      sgalar
+adverb-q-single      sengl
+#adverb-q-to          i
+#adverb-q-v           v
+#adverb-q-val         val
+#adverb-q-w           w
+adverb-q-words       o-eiriau
+adverb-q-ww          gw
+#adverb-q-x           x
+
+# KEY                 TRANSLATION
+adverb-rx-c           c
+adverb-rx-continue    parhau
+adverb-rx-ex          cyn
+adverb-rx-exhaustive  hollgynhwysfawr
+adverb-rx-g           g
+adverb-rx-global      byd-eang
+adverb-rx-i           ff
+adverb-rx-ignorecase  cas-anwybyddu
+adverb-rx-ignoremark  marc-anwybyddu
+adverb-rx-ii          ii
+adverb-rx-m           m
+adverb-rx-mm          mm
+adverb-rx-nd          eg
+adverb-rx-nth         fed
+adverb-rx-ov          trof
+adverb-rx-overlap     gorgyffwrdd
+adverb-rx-p           t
+adverb-rx-pos         post
+adverb-rx-r           r
+adverb-rx-ratchet     clicied
+adverb-rx-rd          ydd
+adverb-rx-s           s
+adverb-rx-samecase    o-r-un-achos
+adverb-rx-samemark    o-r-un-marc
+adverb-rx-samespace   un-gofod
+adverb-rx-sigspace    sigspace
+adverb-rx-ss          ss
+adverb-rx-st          st
+adverb-rx-to          i
+adverb-rx-x           x
+
+# KEY           TRANSLATION
+block-default   rhagosodedig
+block-else      arall
+block-elsif     elsif
+block-for       ar-gyfer
+block-given     a-roddwyd
+block-if        os
+block-loop      dolen
+block-orwith    orwith
+block-repeat    ailadrodd
+block-unless    oni-bai
+block-until     hyd
+block-when      pryd
+block-whenever  pryd-bynnag
+block-while     tra
+block-with      gyda
+block-without   heb
+
+# KEY             TRANSLATION
+constraint-where  ble
+
+# KEY                  TRANSLATION
+core-abs               abs
+core-all               i-gyd
+core-antipairs         gwrthbarau
+core-any               unrhyw
+core-append            atodiad
+core-ast               as
+core-atomic-add-fetch  atomig-ychwanegu-nol
+core-atomic-assign     atomig-aseinio
+core-atomic-dec-fetch  atomig-dec-nol
+core-atomic-fetch      atomig-nol
+core-atomic-fetch-add  atomig-nol-ychwanegu
+core-atomic-fetch-dec  atomig-nol-rhag
+core-atomic-fetch-inc  atomig-nol-gan-gynnwys
+core-atomic-fetch-sub  atomig-nol-is
+core-atomic-inc-fetch  atomig-inc-nol
+core-atomic-sub-fetch  atomig-is-nol
+core-await             aros
+
+# KEY          TRANSLATION
+core-bag       bag
+core-bail-out  mechniaeth-allan
+core-bless     bendithio
+
+# KEY              TRANSLATION
+core-callframe     ffrâm-alwad
+core-callsame      o-alwadau
+core-callwith      galwad-gyda
+core-can-ok        can--iawn
+#core-cas           cas
+core-categorize    categoreiddio
+core-ceiling       nenfwd
+core-chars         golosg
+#core-chdir         chdir
+#core-chmod         chmod
+#core-chomp         chomp
+core-chop          golwyth
+#core-chown         chown
+core-chr           cr
+core-chrs          crs
+core-classify      dosbarthu
+core-close         agos
+core-cmp-ok        cmp-iawn
+core-codes         o-godau
+core-comb          crib
+core-combinations  o-gyfuniadau
+core-conj          conj
+core-contains      yn-cynnwys
+core-cross         croes
+
+# KEY                 TRANSLATION
+core-decode   dadgodio
+core-deepmap  dwfnfap
+core-defined  diffiniedig
+#core-diag     diag
+core-die      marw
+core-dies-ok  yn-marw-iawn
+#core-dir      dir
+core-does-ok  yn-iawn
+core-done     wneud
+core-duckmap  map-hwyad
+
+# KEY               TRANSLATION
+core-elems          elem
+core-emit           alltud
+core-encode         amgodio
+core-end            diwedd
+core-ends-with      diwedd-gyda
+core-eval-dies-ok   eval-yn-marw-iawn
+core-eval-lives-ok  eval-bywydau-iawn
+core-exit           allanfa
+core-exp            exp
+core-expmod         expmod
+
+# KEY              TRANSLATION
+core-fail          methu
+core-fails-like    yn-methu-fel
+core-fc            fc
+core-first         gyntaf
+core-flat          fflat
+core-flip          fflip
+core-floor         llawr
+core-flunk         fflangell
+core-fmt           fmt
+core-full-barrier  llawn-rwystr
+
+# KEY      TRANSLATION
+core-get   cael
+#core-getc  getc
+#core-gist  gist
+#core-grep  grep
+
+# KEY      TRANSLATION
+#core-hash  hash
+core-head  pen
+
+# KEY           TRANSLATION
+core-indent     mewnoliad
+core-index      mynegai
+core-indices    o-fynegeion
+#core-indir      indir
+core-is         yn
+core-is-approx  yn-tua
+core-is-deeply  yn-dwfn
+core-is-prime   yn-presennol
+core-isa-ok     isa-iawn
+core-isnt       ddim
+core-item       eitem
+
+# KEY      TRANSLATION
+core-join  ymuno
+
+# KEY      TRANSLATION
+core-key   cywair
+core-keys  allweddau
+core-kv    kv
+
+# KEY          TRANSLATION
+core-last      diweddaf
+core-lastcall  alwad-olaf
+#core-lc        lc
+core-like      fel
+core-lines     llinell
+core-link      cyswllt
+core-list      rhestr
+core-lives-ok  o-fywydau-yn-iawn
+#core-lsb       lsb
+
+# KEY        TRANSLATION
+core-make    gwneuthur
+core-map     map
+core-match   cyfatebol
+core-max     uchafswm
+core-min     mun
+core-minmax  minmax
+core-mix     cymysgedd
+core-mkdir   mkdir
+core-move    symud
+core-msb     msb
+
+# KEY            TRANSLATION
+core-new         newydd
+core-next        nesaf
+core-nextcallee  nesaf-galwad
+core-nextsame    yr-un-nesaf
+core-nextwith    nesaf
+#core-nok         nok
+core-none        dim
+core-not         ddim
+core-note        nodyn
+
+# KEY      TRANSLATION
+core-ok    iawn
+core-one   un
+core-open  agored
+core-ord   ord
+core-ords  ordeiniad
+
+# KEY              TRANSLATION
+core-pair          pâr
+core-pairs         o-barau
+core-parse-base    dosran-sylfaen
+core-pass          pasio
+core-permutations  trynewidiad
+core-pick          pigo
+core-plan          cynllun
+#core-pop           pop
+core-prepend       rhagymadrodd
+#core-print         print
+#core-printf        printf
+core-proceed       symud-ymlaen
+core-prompt        prydlon
+core-push          gwthio
+core-put           dodi
+
+# KEY            TRANSLATION
+#core-rand        rand
+core-redo        ail-wneud
+core-reduce      lleihau
+core-repeated    ailadrodd
+core-repl        atteb
+core-return      dychwelyd
+core-return-rw   dychwelyd-rw
+core-reverse     gwrthwyneb
+#core-rindex      rindex
+#core-rmdir       rmdir
+core-roll        rhôl
+core-roots       o-wreiddiau
+core-rotate      cylchdroi
+core-round       rownd
+core-roundrobin  rowndrobin
+core-run         rhediad
+
+# KEY             TRANSLATION
+core-samecase     o-r-un-achos
+core-samemark     o-r-un-marc
+core-samewith     yr-un-fath
+core-say          dywedyd
+#core-set          set
+core-shell        plisgyn
+core-shift        sifft
+core-sign         arwydd
+core-signal       signalau
+core-skip         sgip
+core-skip-rest    sgip-gorffwys
+core-sleep        gwsg
+core-sleep-timer  cwsg-amserydd
+core-sleep-until  cwsg-hyd
+#core-slip         slip
+#core-slurp        slurp
+#core-snip         snip
+#core-snitch       snitch
+core-so           felly
+core-sort         didoli
+core-splice       sbeis
+core-split        hollt
+core-sprintf      sbrintf
+core-spurt        yspryd
+#core-sqrt         sqrt
+core-squish       sgwish
+core-srand        traen
+core-starts-with  yn-dechreu-gyda
+#core-subbuf       subbuf
+#core-subbuf-rw    subbuf-rw
+#core-subst        subst
+#core-substr       substr
+#core-substr-eq    substr-eq
+#core-substr-rw    substr-rw
+core-subtest      is-brawf
+core-succeed      llwyddo
+core-sum          swm
+core-symlink      symlink
+
+# KEY               TRANSLATION
+core-tail           cynffon
+core-take           cymryd
+core-take-rw        cymryd-rw
+#core-tc             tc
+#core-tclc           tclc
+#core-temp           temp
+core-throws-like    taflu-fel
+#core-todo           todo
+core-trans          traws
+core-trim           trim
+core-trim-leading   trim-arweiniol
+core-trim-trailing  trim-trael
+core-truncate       blaenor
+
+# KEY          TRANSLATION
+#core-uc        uc
+core-unimatch  anghymhariaeth
+#core-uniname   uniname
+core-uninames  unenw
+#core-uniparse  uniparse
+#core-uniprop   uniprop
+core-uniprops  unplyg
+core-unique    unigryw
+core-unival    cyffredinol
+core-univals   o-gyfiredinau
+core-unlike    annhebyg
+core-unlink    ddatgysylltu
+#core-unpolar   unpolar
+#core-unshift   unshift
+core-use-ok    defnydd-iawn
+
+# KEY        TRANSLATION
+#core-val     val
+core-value   gwerth
+core-values  o-werthoedd
+
+# KEY          TRANSLATION
+core-warn      rhybuddio
+core-wordcase  gair
+core-words     o-eiriau
+
+# KEY     TRANSLATION
+core-zip  zip
+
+# KEY                   TRANSLATION
+#enum-BigEndian          BigEndian
+enum-Broken             WediTorri
+enum-False              Gau
+#enum-FileChanged        FileChanged
+#enum-FileRenamed        FileRenamed
+enum-Kept               Cadw
+enum-Less               Llai
+#enum-LittleEndian       LittleEndian
+enum-More               Mwy
+#enum-NativeEndian       NativeEndian
+enum-Planned            Addawyd
+enum-Same               YrUn
+#enum-SeekFromBeginning  SeekFromBeginning
+#enum-SeekFromCurrent    SeekFromCurrent
+#enum-SeekFromEnd        SeekFromEnd
+enum-True               Gwir
+
+# KEY             TRANSLATION
+infix-(cont)      (parhad)
+infix-(elem)      (elem)
+#infix-^ff         ^ff
+#infix-^ff^        ^ff^
+#infix-^fff        ^ffff
+#infix-^fff^       ^ffff^
+infix-after       ar-ôl
+#infix-and         a
+infix-andthen     ac-yna
+infix-before      o-r-blaen
+infix-but         ond
+#infix-cmp         cmp
+#infix-coll        coll
+#infix-div         div
+infix-does        yn-gwneud
+#infix-eq          eq
+#infix-ff          ff
+#infix-ff^         ff^
+#infix-fff         ff
+#infix-fff^        ff^
+#infix-gcd         gcd
+#infix-ge          ge
+#infix-gt          gt
+#infix-lcm         lcm
+#infix-le          le
+infix-leg         goes
+#infix-lt          lt
+infix-max         uchafswm
+infix-min         mun
+#infix-minmax      minmax
+#infix-mod         mod
+#infix-ne          ne
+infix-notandthen  ac-yna
+#infix-o           o
+infix-or          neu
+infix-orelse      arall
+#infix-unicmp      unicmp
+#infix-x           x
+#infix-X           X
+#infix-xx          xx
+#infix-Z           Z
+
+# KEY   TRANSLATION
+#meta-R  R
+#meta-X  X
+#meta-Z  Z
+
+# KEY             TRANSLATION
+modifier-for      am
+modifier-given    a-roddwyd
+modifier-if       os
+modifier-unless   oni-bai
+modifier-until    hyd
+modifier-when     pryd
+modifier-while    tra
+modifier-with     gyda
+modifier-without  heb
+
+# KEY        TRANSLATION
+multi-multi  aml
+multi-only   yn-unig
+#multi-proto  proto
+
+# KEY           TRANSLATION
+named-absolute  absoliwt
+named-actions   o-weithredoedd
+named-api       ap
+named-append    atodiad
+named-arg0      arg0
+named-args      arg
+named-as        fel
+named-at        yn
+named-auth      awd
+
+# KEY            TRANSLATION
+named-basename   enw-sylfaen
+named-batch      swp
+#named-bin        bin
+named-bleed      gwaedu
+named-broadcast  darlledu
+
+# KEY             TRANSLATION
+named-catch       dal
+named-check       siec
+#named-chomp       chomp
+named-close       agos
+named-command     gorchymyn
+named-complement  ategu
+named-completely  yn-hollol
+named-continue    parhau
+named-control     rheolaeth
+named-count       cyfrif
+named-create      creu
+named-createonly  creu-yn-unig
+#named-cwd         cwd
+#named-CWD         CWD
+
+# KEY          TRANSLATION
+named-date     dyddiad
+named-day      dydd
+named-degree   gradd
+named-delete   dileu
+named-dirname  cyfenw
+
+# KEY             TRANSLATION
+named-elems       elem
+named-emit-timed  wedi-u-hallyrru
+named-enc         amg
+named-encoding    amgodio
+named-end         diwedd
+named-err         cyfeiliorni
+named-every       bob
+named-ex          cyn
+named-exclusive   unigryw
+named-exhaustive  hollgynhwysfawr
+named-expires     yn-dod-i-ben
+
+# KEY            TRANSLATION
+named-family     teulu
+named-filename   enw-ffeil
+named-filter     hidlydd
+named-formatter  fformatiwr
+
+# KEY         TRANSLATION
+named-g       g
+named-gid     gid
+named-global  byd-eang
+
+# KEY       TRANSLATION
+named-host  gwesteiwr
+named-hour  awr
+
+# KEY             TRANSLATION
+named-i           ff
+named-ignorecase  cas-anwybyddu
+named-ignoremark  marc-anwybyddu
+#named-ii          ii
+named-in          yn
+named-into        i-mewn
+
+# KEY         TRANSLATION
+named-joiner  saer
+
+# KEY                 TRANSLATION
+#named-k    k
+named-key  cywair
+#named-kv   kv
+
+# KEY            TRANSLATION
+named-listen     gwrando
+named-localhost  gwesteiwr-lleol
+named-localport  porthladd-lleol
+
+# KEY                 TRANSLATION
+named-match   cyfateb
+named-merge   uno
+named-minute  munud
+#named-mm      mm
+named-mode    modd
+named-month   mis
+
+# KEY                 TRANSLATION
+named-name          enw
+named-nd            eg
+named-nl            nl
+named-nl-in         nl-yn
+named-nl-out        nl-allan
+named-non-blocking  di-rwystro
+named-nth           nfed
+
+# KEY             TRANSLATION
+named-off         i-ffwrdd
+named-out         allan
+named-out-buffer  allan-byffer
+named-ov          oh
+named-overlap     gorgyffwrdd
+
+# KEY          TRANSLATION
+named-p        t
+named-partial  rhan
+named-parts    rhan
+named-port     porthladd
+named-pos      post
+named-primary  cynradd
+
+# KEY             TRANSLATION
+named-quaternary  cwarterol
+
+# KEY              TRANSLATION
+named-r            rh
+named-rd           ydd
+named-real         go-iawn
+named-replacement  amnewid
+named-rule         rheol
+named-rw           rh
+named-rx           rx
+
+# KEY              TRANSLATION
+named-samecase     o-r-un-achos
+named-samespace    un-gofod
+named-scheduler    trefnydd
+named-second       eiliad
+named-secondary    eilradd
+named-seconds      eiliadau
+named-shared       wedi-eu-rhannu
+named-size         maint
+#named-slip         slip
+named-SPEC         MANYLION
+named-squash       sboncen
+named-ss           eg
+named-st           st
+named-status       statws
+named-strict       llym
+named-subscript    tanysgrifiad
+named-superscript  uwchysgrif
+
+# KEY                 TRANSLATION
+named-tertiary      trydyddol
+named-test          prawf
+named-th            eg
+named-times         o-weithiau
+named-timezone      cylchfa-amser
+named-translate-nl  cyfieith-nl
+named-truncate      blaenor
+
+# KEY         TRANSLATION
+#named-uid     uid
+named-update  diweddariad
+
+# KEY          TRANSLATION
+#named-v        v
+named-value    gwerth
+named-vent-at  vent-yn
+#named-ver      ver
+named-volume   gyfrol
+
+# KEY                    TRANSLATION
+named-w                  gw
+named-where              lle
+named-win-verbatim-args  ennill-verbatim-args
+
+# KEY    TRANSLATION
+#named-x  x
+
+# KEY       TRANSLATION
+named-year  flwyddyn
+
+# KEY            TRANSLATION
+package-class    dosbarth
+package-grammar  gramadeg
+package-module   modiwl
+package-package  pecyn
+package-role     rôl
+
+# KEY           TRANSLATION
+phaser-BEGIN    DECHRAU
+phaser-CATCH    DAL
+phaser-CHECK    GWIRODYDD
+phaser-CLOSE    GAU
+phaser-CONTROL  RHEOLAETH
+#phaser-DOC      DOC
+phaser-END      DIWEDD
+phaser-ENTER    ENAID
+phaser-FIRST    CYNTAF
+#phaser-INIT     INIT
+phaser-KEEP     CADW
+phaser-LAST     OLAF
+phaser-LEAVE    GADAEL
+phaser-NEXT     NESAF
+phaser-POST     SWYDD
+phaser-PRE      PRE
+phaser-QUIT     GADAEL
+#phaser-UNDO     UNDOD
+
+# KEY                 TRANSLATION
+pragma-dynamic-scope       deinamig-gwmpas
+pragma-fatal               angheuol
+pragma-internals           mewnol
+pragma-invocant            ddirym
+#pragma-isms                isms
+#pragma-lib                 lib
+pragma-MONKEY              MYNEGAI
+pragma-MONKEY-GUTS         MONKEY-GUTS
+pragma-MONKEY-SEE-NO-EVAL  MONKEY-GWELER-NO-EVAL
+pragma-MONKEY-TYPING       MYNEG-DDYN
+#pragma-nqp                 nqp
+pragma-precompilation      rhagluniaeth
+pragma-soft                meddal
+pragma-strict              llym
+pragma-trace               olrhain
+pragma-variables           o-newidynnau
+pragma-worries             o-ofidiau
+
+# KEY       TRANSLATION
+prefix-not  ddim
+prefix-so   felly
+
+# KEY          TRANSLATION
+#quote-lang-m   m
+#quote-lang-ms  ms
+#quote-lang-q   q
+quote-lang-Q   Cw
+#quote-lang-qq  qq
+#quote-lang-rx  rx
+#quote-lang-s   s
+#quote-lang-S   S
+#quote-lang-ss  ss
+#quote-lang-Ss  Ss
+
+# KEY                 TRANSLATION
+routine-method     dull
+routine-regex      regex
+routine-rule       rheol
+routine-sub        is
+routine-submethod  is-ddull
+routine-token      tocyn
+
+# KEY           TRANSLATION
+scope-anon      anun
+scope-augment   cynydd
+scope-constant  cyson
+scope-has       wedi
+scope-HAS       WEDI
+scope-my        fy
+scope-our       ein
+scope-state     wladwriaeth
+scope-unit      uned
+
+# KEY                TRANSLATION
+stmt-prefix-also     hefyd
+stmt-prefix-do       wneud
+stmt-prefix-eager    awyddus
+stmt-prefix-gather   casglu
+stmt-prefix-hyper    hybarch
+stmt-prefix-lazy     diog
+stmt-prefix-quietly  yn-dawel
+stmt-prefix-race     hil
+stmt-prefix-react    ymateb
+stmt-prefix-sink     suddo
+stmt-prefix-start    dechreu
+stmt-prefix-supply   cyflenwad
+stmt-prefix-try      ceisio
+
+# KEY               TRANSLATION
+system-ACCEPTS      DERBYNIADAU
+system-BUILD        ADEILADU
+system-CALL-ME      GALWAD-ME
+system-COERCE       COFIANT
+system-FALLBACK     AWDL
+system-MAIN         PRIF
+system-TWEAK        TWEAK
+system-UPGRADE-RAT  UWCHRADD-RAT
+
+# KEY      TRANSLATION
+#term-nano  nano
+term-now   yn-awr
+#term-pi    pi
+#term-rand  rand
+term-self  hunan
+#term-tau   tau
+term-time  amser
+
+# KEY                           TRANSLATION
+trait-is-built                  wedi-eu-hadeiladu
+trait-is-copy                   copi
+trait-is-default                rhagosodedig
+trait-is-DEPRECATED             ANGHOFIEDIG
+trait-is-equiv                  cyfystyr
+trait-is-export                 allforio
+trait-is-hidden-from-backtrace  cudd-o-gefn
+trait-is-hidden-from-USAGE      cudd-o-DDEFNYDD
+trait-is-implementation-detail  gweithredu-manylion
+trait-is-looser                 rhyddach
+trait-is-nodal                  nodol
+trait-is-pure                   pur
+trait-is-raw                    amrwd
+trait-is-rw                     rh
+trait-is-test-assertion         prawf-haeriad
+trait-is-tighter                llymach
+
+# KEY             TRANSLATION
+traitmod-does     yn-gwneud
+traitmod-handles  llaw
+traitmod-hides    o-guddfan
+traitmod-is       yn
+traitmod-of       o
+traitmod-returns  yn-dychwelyd
+traitmod-trusts   ymddiriedolaethau
+
+# KEY         TRANSLATION
+typer-enum    enum
+typer-subset  is-set
+
+# KEY        TRANSLATION
+use-import   mewnforio
+use-need     angen
+use-no       na
+use-require  angen
+use-use      defnydd
+
+# vim: expandtab shiftwidth=4
