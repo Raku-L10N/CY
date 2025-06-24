@@ -15,8 +15,9 @@
     "L10N::CY": "lib/L10N/CY.rakumod",
     "RakuAST::Deparse::L10N::CY": "lib/RakuAST/Deparse/L10N/CY.rakumod"
   },
-  "resources": [],
-  "source-url": "https://github.com/raku-L10N/CY.git",
+  "resources": [
+  ],
+  "source-url": "https://github.com/Raku-L10N/CY.git",
   "tags": [
     "LOCALIZATION",
     "WELSH",

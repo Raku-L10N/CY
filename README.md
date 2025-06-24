@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/Raku-L10N/CY/actions/workflows/linux.yml/badge.svg)](https://github.com/Raku-L10N/CY/actions) [![Actions Status](https://github.com/Raku-L10N/CY/actions/workflows/macos.yml/badge.svg)](https://github.com/Raku-L10N/CY/actions) [![Actions Status](https://github.com/Raku-L10N/CY/actions/workflows/windows.yml/badge.svg)](https://github.com/Raku-L10N/CY/actions)
+
 NAME
 ====
 
@@ -6,28 +8,33 @@ L10N::CY - Welsh localization of Raku
 SYNOPSIS
 ========
 
+    $ ryuuu -e 'dywedyd "Helo Byd"'
+    Helo Byd
+
 ```raku
-use L10N::CY;
-dywedyd "Hello World";
+use L10N::NL;
+dywedyd "Helo Byd"
 ```
 
 DESCRIPTION
 ===========
 
-L10N::CY contains the logic to provide a Welsh localization of the Raku Programming Language.
+The `L10N::JA` distribution contains the logic to provide a Japanese localization of the Raku Programming Language. It installs a `ryuuu` executable that will automatically activate the Japanese localization. And it allows one to use the Japanese localization in selected programs with a `use L10N::JA` statement.
 
-AUTHOR
-======
+REFERENCES
+==========
+
+[Ryuuu - a Japanese dragon](https://dev.to/finanalyst/ryuu-a-japanese-dragon-2e7m)
+
+AUTHORS
+=======
 
 Richard Hainsworth <rnhainsworth@gmail.com>
-Elizabeth Mattijsen <liz@raku.rocks>
-
-Source can be located at: https://github.com/Raku-L10N/CY. Comments and Pull Requests are welcome.  
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2023 Richard Hainsworth
+Copyright 2024, 2025 Raku Localization Team
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
