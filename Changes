@@ -1,6 +1,9 @@
 Revision history for L10N::CY
 
 {{$NEXT}}
+
+0.0.6  2025-06-27T18:27:03+02:00
+    - Updated internals to new L10N file layout
     - Fix reference to blog post
 
 0.0.5  2025-06-24T13:50:08+02:00
