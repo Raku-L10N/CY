@@ -7,12 +7,13 @@ L10N::CY - Welsh localization of Raku
 =head1 SYNOPSIS
 
 =begin output
-$ ryuuu -e 'dywedyd "Helo Byd"'
+$ draig -e 'dywedyd "Helo Byd"'
 Helo Byd
 =end output
 
 =begin code :lang<raku>
 
+# Must have RAKUDO_RAKUAST=1 environment variable set
 use L10N::NL;
 dywedyd "Helo Byd"
 
@@ -20,11 +21,11 @@ dywedyd "Helo Byd"
 
 =head1 DESCRIPTION
 
-The C<L10N::JA> distribution contains the logic to provide a Japanese
+The C<L10N::CY> distribution contains the logic to provide a Welsh
 localization of the Raku Programming Language.  It installs a
-C<ryuuu> executable that will automatically activate the Japanese
-localization.  And it allows one to use the Japanese localization
-in selected programs with a C<use L10N::JA> statement.
+C<draig> executable that will automatically activate the Welsh
+localization.  And it allows one to use the Welsh localization
+in selected programs with a C<use L10N::CY> statement.
 
 =head1 REFERENCES
 
