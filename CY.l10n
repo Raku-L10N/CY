@@ -193,6 +193,7 @@ core-indent     mewnoliad
 core-index      mynegai
 core-indices    o-fynegeion
 #core-indir      indir
+#core-invert     invert
 core-is         yn
 core-is-approx  yn-tua
 core-is-deeply  yn-dwfn
