@@ -3,27 +3,25 @@
   "authors": [
     "Richard Hainsworth"
   ],
-  "build-depends": [
-  ],
   "depends": [
   ],
   "description": "Welsh localization of Raku",
   "license": "Artistic-2.0",
   "name": "L10N::CY",
-  "perl": "6.d",
   "provides": {
     "L10N::CY": "lib/L10N/CY.rakumod",
     "RakuAST::Deparse::L10N::CY": "lib/RakuAST/Deparse/L10N/CY.rakumod"
   },
-  "resources": [
-  ],
-  "source-url": "https://github.com/Raku-L10N/CY.git",
+  "raku": "6.d",
+  "support": {
+    "bugtracker": "https://github.com/Raku-L10N/CY/issues",
+    "email": "rnhainsworth@gmail.com",
+    "source": "https://github.com/Raku-L10N/CY.git"
+  },
   "tags": [
     "LOCALIZATION",
     "WELSH",
     "CY"
-  ],
-  "test-depends": [
   ],
   "version": "0.0.7"
 }

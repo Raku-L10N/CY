@@ -1,7 +1,7 @@
 # This file contains the Welsh Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2025-06-27T18:26:04+02:00 by update-localization.raku
+#- Generated on 2026-09-26T09:27:13+02:00 by update-localization.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::CY {
@@ -55,6 +55,7 @@ role L10N::CY {
     token infix-div { div}
     token infix-does { "yn-gwneud"}
     token infix-eq { eq}
+    token infix-eqv { eqv}
     token infix-ff { ff}
     token infix-ffc { "ff^"}
     token infix-fff { fff}
@@ -78,6 +79,7 @@ role L10N::CY {
     token infix-unicmp { unicmp}
     token infix-x { x}
     token infix-X { X}
+    token infix-xor { xor}
     token infix-xx { xx}
     token infix-Z { Z}
     token meta-R { R}

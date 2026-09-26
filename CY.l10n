@@ -19,8 +19,8 @@ adverb-q-closure     cau
 adverb-q-double      dwbl
 adverb-q-exec        gweithred
 #adverb-q-f           f
-adverb-q-function    swyddogaeth
 adverb-q-format      fformat
+adverb-q-function    swyddogaeth
 adverb-q-h           awr
 adverb-q-hash        stwnsh
 adverb-q-heredoc     heredoc
@@ -31,7 +31,7 @@ adverb-q-quotewords  o-ddyfyniadau
 #adverb-q-s           s
 adverb-q-scalar      sgalar
 adverb-q-single      sengl
-#adverb-q-to          i
+#adverb-q-to          to
 #adverb-q-v           v
 #adverb-q-val         val
 #adverb-q-w           w
@@ -94,7 +94,11 @@ constraint-where  ble
 
 # KEY                  TRANSLATION
 core-abs               abs
+#core-accessed          accessed
+#core-actions           actions
+#core-add               add
 core-all               i-gyd
+#core-antipair          antipair
 core-antipairs         gwrthbarau
 core-any               unrhyw
 core-append            atodiad
@@ -111,28 +115,38 @@ core-atomic-inc-fetch  atomig-inc-nol
 core-atomic-sub-fetch  atomig-is-nol
 core-await             aros
 
-# KEY          TRANSLATION
-core-bag       bag
-core-bail-out  mechniaeth-allan
-core-bless     bendithio
+# KEY           TRANSLATION
+#core-backtrace  backtrace
+core-bag        bag
+core-bail-out   mechniaeth-allan
+#core-base       base
+#core-batch      batch
+core-bless      bendithio
 
 # KEY              TRANSLATION
+#core-cache         cache
 core-callframe     ffrâm-alwad
 core-callsame      o-alwadau
 core-callwith      galwad-gyda
 core-can-ok        can--iawn
+#core-caps          caps
 #core-cas           cas
 core-categorize    categoreiddio
 core-ceiling       nenfwd
+#core-changed       changed
 core-chars         golosg
 #core-chdir         chdir
+#core-child         child
 #core-chmod         chmod
 #core-chomp         chomp
 core-chop          golwyth
 #core-chown         chown
 core-chr           cr
 core-chrs          crs
+#core-chunks        chunks
 core-classify      dosbarthu
+#core-cleanup       cleanup
+#core-clone         clone
 core-close         agos
 core-cmp-ok        cmp-iawn
 core-codes         o-godau
@@ -142,29 +156,42 @@ core-conj          conj
 core-contains      yn-cynnwys
 core-cross         croes
 
-# KEY                 TRANSLATION
-core-decode   dadgodio
-core-deepmap  dwfnfap
-core-defined  diffiniedig
-#core-diag     diag
-core-die      marw
-core-dies-ok  yn-marw-iawn
-#core-dir      dir
-core-does-ok  yn-iawn
-core-done     wneud
-core-duckmap  map-hwyad
+# KEY                  TRANSLATION
+#core-day-of-week       day-of-week
+#core-day-of-year       day-of-year
+#core-daycount          daycount
+#core-days-in-month     days-in-month
+#core-days-in-year      days-in-year
+#core-dd-mm-yyyy        dd-mm-yyyy
+core-decode            dadgodio
+core-deepmap           dwfnfap
+core-defined           diffiniedig
+#core-dev               dev
+#core-devtype           devtype
+#core-diag              diag
+core-die               marw
+core-dies-ok           yn-marw-iawn
+#core-dir               dir
+#core-dir-with-entries  dir-with-entries
+core-does-ok           yn-iawn
+core-done              wneud
+core-duckmap           map-hwyad
 
 # KEY               TRANSLATION
+#core-eager          eager
+#core-earlier        earlier
 core-elems          elem
 core-emit           alltud
 core-encode         amgodio
 core-end            diwedd
 core-ends-with      diwedd-gyda
+#core-enums          enums
 core-eval-dies-ok   eval-yn-marw-iawn
 core-eval-lives-ok  eval-bywydau-iawn
 core-exit           allanfa
 core-exp            exp
 core-expmod         expmod
+#core-extension      extension
 
 # KEY              TRANSLATION
 core-fail          methu
@@ -172,35 +199,45 @@ core-fails-like    yn-methu-fel
 core-fc            fc
 core-first         gyntaf
 core-flat          fflat
+#core-flatmap       flatmap
 core-flip          fflip
 core-floor         llawr
 core-flunk         fflangell
 core-fmt           fmt
+#core-from          from
 core-full-barrier  llawn-rwystr
 
-# KEY      TRANSLATION
-core-get   cael
-#core-getc  getc
-#core-gist  gist
-#core-grep  grep
+# KEY           TRANSLATION
+core-get        cael
+#core-getc       getc
+#core-gist       gist
+#core-grab       grab
+#core-grabpairs  grabpairs
+#core-grep       grep
+#core-group      group
 
 # KEY      TRANSLATION
 #core-hash  hash
 core-head  pen
 
-# KEY           TRANSLATION
-core-indent     mewnoliad
-core-index      mynegai
-core-indices    o-fynegeion
-#core-indir      indir
-#core-invert     invert
-core-is         yn
-core-is-approx  yn-tua
-core-is-deeply  yn-dwfn
-core-is-prime   yn-presennol
-core-isa-ok     isa-iawn
-core-isnt       ddim
-core-item       eitem
+# KEY             TRANSLATION
+#core-im           im
+core-indent       mewnoliad
+core-index        mynegai
+core-indices      o-fynegeion
+#core-indir        indir
+#core-inode        inode
+#core-invert       invert
+#core-IO           IO
+core-is           yn
+#core-is-absolute  is-absolute
+core-is-approx    yn-tua
+core-is-deeply    yn-dwfn
+core-is-prime     yn-presennol
+#core-is-relative  is-relative
+core-isa-ok       isa-iawn
+core-isnt         ddim
+core-item         eitem
 
 # KEY      TRANSLATION
 core-join  ymuno
@@ -213,6 +250,7 @@ core-kv    kv
 # KEY          TRANSLATION
 core-last      diweddaf
 core-lastcall  alwad-olaf
+#core-later     later
 #core-lc        lc
 core-like      fel
 core-lines     llinell
@@ -221,17 +259,20 @@ core-list      rhestr
 core-lives-ok  o-fywydau-yn-iawn
 #core-lsb       lsb
 
-# KEY        TRANSLATION
-core-make    gwneuthur
-core-map     map
-core-match   cyfatebol
-core-max     uchafswm
-core-min     mun
-core-minmax  minmax
-core-mix     cymysgedd
-core-mkdir   mkdir
-core-move    symud
-core-msb     msb
+# KEY            TRANSLATION
+#core-made        made
+core-make        gwneuthur
+core-map         map
+core-match       cyfatebol
+core-max         uchafswm
+#core-message     message
+core-min         mun
+core-minmax      minmax
+core-mix         cymysgedd
+core-mkdir       mkdir
+#core-mm-dd-yyyy  mm-dd-yyyy
+core-move        symud
+core-msb         msb
 
 # KEY            TRANSLATION
 core-new         newydd
@@ -250,30 +291,45 @@ core-one   un
 core-open  agored
 core-ord   ord
 core-ords  ordeiniad
+#core-orig  orig
 
 # KEY              TRANSLATION
 core-pair          pâr
 core-pairs         o-barau
+#core-parent        parent
+#core-parse         parse
 core-parse-base    dosran-sylfaen
 core-pass          pasio
+#core-path          path
 core-permutations  trynewidiad
 core-pick          pigo
 core-plan          cynllun
 #core-pop           pop
+#core-pos           pos
+#core-postmatch     postmatch
+#core-pred          pred
+#core-prematch      prematch
 core-prepend       rhagymadrodd
 #core-print         print
 #core-printf        printf
 core-proceed       symud-ymlaen
+#core-produce       produce
 core-prompt        prydlon
 core-push          gwthio
 core-put           dodi
 
 # KEY            TRANSLATION
+#core-raku        raku
 #core-rand        rand
+#core-re          re
 core-redo        ail-wneud
 core-reduce      lleihau
+#core-relative    relative
 core-repeated    ailadrodd
 core-repl        atteb
+#core-resolve     resolve
+#core-resume      resume
+#core-rethrow     rethrow
 core-return      dychwelyd
 core-return-rw   dychwelyd-rw
 core-reverse     gwrthwyneb
@@ -282,6 +338,7 @@ core-reverse     gwrthwyneb
 core-roll        rhôl
 core-roots       o-wreiddiau
 core-rotate      cylchdroi
+#core-rotor       rotor
 core-round       rownd
 core-roundrobin  rowndrobin
 core-run         rhediad
@@ -296,6 +353,7 @@ core-shell        plisgyn
 core-shift        sifft
 core-sign         arwydd
 core-signal       signalau
+#core-sink         sink
 core-skip         sgip
 core-skip-rest    sgip-gorffwys
 core-sleep        gwsg
@@ -317,11 +375,13 @@ core-srand        traen
 core-starts-with  yn-dechreu-gyda
 #core-subbuf       subbuf
 #core-subbuf-rw    subbuf-rw
+#core-subparse     subparse
 #core-subst        subst
 #core-substr       substr
 #core-substr-eq    substr-eq
 #core-substr-rw    substr-rw
 core-subtest      is-brawf
+#core-succ         succ
 core-succeed      llwyddo
 core-sum          swm
 core-symlink      symlink
@@ -330,10 +390,14 @@ core-symlink      symlink
 core-tail           cynffon
 core-take           cymryd
 core-take-rw        cymryd-rw
+#core-target         target
 #core-tc             tc
 #core-tclc           tclc
 #core-temp           temp
+#core-throw          throw
 core-throws-like    taflu-fel
+#core-to             to
+#core-today          today
 #core-todo           todo
 core-trans          traws
 core-trim           trim
@@ -357,16 +421,25 @@ core-unlink    ddatgysylltu
 #core-unpolar   unpolar
 #core-unshift   unshift
 core-use-ok    defnydd-iawn
+#core-user      user
 
 # KEY        TRANSLATION
 #core-val     val
 core-value   gwerth
 core-values  o-werthoedd
 
-# KEY          TRANSLATION
-core-warn      rhybuddio
-core-wordcase  gair
-core-words     o-eiriau
+# KEY                  TRANSLATION
+core-warn              rhybuddio
+#core-watch             watch
+#core-week              week
+#core-week-number       week-number
+#core-week-year         week-year
+#core-weekday-of-month  weekday-of-month
+core-wordcase          gair
+core-words             o-eiriau
+
+# KEY            TRANSLATION
+#core-yyyy-mm-dd  yyyy-mm-dd
 
 # KEY     TRANSLATION
 core-zip  zip
@@ -394,10 +467,10 @@ infix-(cont)      (parhad)
 infix-(elem)      (elem)
 #infix-^ff         ^ff
 #infix-^ff^        ^ff^
-#infix-^fff        ^ffff
-#infix-^fff^       ^ffff^
+#infix-^fff        ^fff
+#infix-^fff^       ^fff^
 infix-after       ar-ôl
-#infix-and         a
+#infix-and         and
 infix-andthen     ac-yna
 infix-before      o-r-blaen
 infix-but         ond
@@ -406,10 +479,11 @@ infix-but         ond
 #infix-div         div
 infix-does        yn-gwneud
 #infix-eq          eq
+#infix-eqv         eqv
 #infix-ff          ff
 #infix-ff^         ff^
-#infix-fff         ff
-#infix-fff^        ff^
+#infix-fff         fff
+#infix-fff^        fff^
 #infix-gcd         gcd
 #infix-ge          ge
 #infix-gt          gt
@@ -429,6 +503,7 @@ infix-orelse      arall
 #infix-unicmp      unicmp
 #infix-x           x
 #infix-X           X
+#infix-xor         xor
 #infix-xx          xx
 #infix-Z           Z
 
@@ -470,6 +545,7 @@ named-batch      swp
 #named-bin        bin
 named-bleed      gwaedu
 named-broadcast  darlledu
+#named-by         by
 
 # KEY             TRANSLATION
 named-catch       dal
@@ -483,16 +559,18 @@ named-continue    parhau
 named-control     rheolaeth
 named-count       cyfrif
 named-create      creu
+#named-created     created
 named-createonly  creu-yn-unig
 #named-cwd         cwd
 #named-CWD         CWD
 
-# KEY          TRANSLATION
-named-date     dyddiad
-named-day      dydd
-named-degree   gradd
-named-delete   dileu
-named-dirname  cyfenw
+# KEY           TRANSLATION
+#named-datagram  datagram
+named-date      dyddiad
+named-day       dydd
+named-degree    gradd
+named-delete    dileu
+named-dirname   cyfenw
 
 # KEY             TRANSLATION
 named-elems       elem
@@ -533,7 +611,7 @@ named-into        i-mewn
 # KEY         TRANSLATION
 named-joiner  saer
 
-# KEY                 TRANSLATION
+# KEY      TRANSLATION
 #named-k    k
 named-key  cywair
 #named-kv   kv
@@ -543,15 +621,16 @@ named-listen     gwrando
 named-localhost  gwesteiwr-lleol
 named-localport  porthladd-lleol
 
-# KEY                 TRANSLATION
-named-match   cyfateb
-named-merge   uno
-named-minute  munud
-#named-mm      mm
-named-mode    modd
-named-month   mis
+# KEY           TRANSLATION
+named-match     cyfateb
+named-merge     uno
+named-minute    munud
+#named-mm        mm
+named-mode      modd
+#named-modified  modified
+named-month     mis
 
-# KEY                 TRANSLATION
+# KEY               TRANSLATION
 named-name          enw
 named-nd            eg
 named-nl            nl
@@ -606,7 +685,7 @@ named-strict       llym
 named-subscript    tanysgrifiad
 named-superscript  uwchysgrif
 
-# KEY                 TRANSLATION
+# KEY               TRANSLATION
 named-tertiary      trydyddol
 named-test          prawf
 named-th            eg
@@ -662,9 +741,9 @@ phaser-NEXT     NESAF
 phaser-POST     SWYDD
 phaser-PRE      PRE
 phaser-QUIT     GADAEL
-#phaser-UNDO     UNDOD
+#phaser-UNDO     UNDO
 
-# KEY                 TRANSLATION
+# KEY                      TRANSLATION
 pragma-dynamic-scope       deinamig-gwmpas
 pragma-fatal               angheuol
 pragma-internals           mewnol
@@ -699,7 +778,7 @@ quote-lang-Q   Cw
 #quote-lang-ss  ss
 #quote-lang-Ss  Ss
 
-# KEY                 TRANSLATION
+# KEY              TRANSLATION
 routine-method     dull
 routine-regex      regex
 routine-rule       rheol
@@ -766,6 +845,7 @@ trait-is-looser                 rhyddach
 trait-is-nodal                  nodol
 trait-is-pure                   pur
 trait-is-raw                    amrwd
+#trait-is-required               required
 trait-is-rw                     rh
 trait-is-test-assertion         prawf-haeriad
 trait-is-tighter                llymach
